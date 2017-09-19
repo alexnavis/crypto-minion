@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+
+    "name": "Crypto Minion",
+    "description": "Extension to help with day today activities",
+    "version": "1.0",
+
+    "permissions": [
+      "activeTab"
+    ],
+
+    "content_scripts": [
+        {
+            "css": ["crypto_minion.css"],
+            "js": ["crypto_minion.js"]
+        }
+    ]
+}
